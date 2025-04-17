@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="header-section">
+    <div class="header-section-email-logo"><img src="./public/mail-removebg-preview.png" class="logo"></div>
+    <div class="header-titel">Random Email Generator</div>
+  </section>
+    <section class="main-container">
+      <div class="hero-container">
+        <div class="email-titel-and-desc">
+          <div class="email-title">Genrate Random Email Instantly</div>
+          <div class="email-desc">Prefect for Testing, Fun, or Learning, No inbox, Just Disposible Emails</div>
+        </div>
+        <div class="email-container">
+          <div class="buttons">
+            <button class="click-button" onclick="email()"><img src="./public/Screenshot_2025-04-17_153109-removebg-preview.png" class="logo">Generate Email</button>
+            <!-- <button class="click-button" onclick="stop()">Stop</button> -->
+            <!-- <button class="click-button" onclick="clearall()">Clear All</button> -->
+          </div>
+          <div class="display-email">
+            <div class="genrated-email" id="display">your email showing here</div>
+            <div class="copy-email" onclick="copyEmail()">
+              <img src="./local/copy-removebg-preview.png" class="copy">
+              <div class="show-copy">copy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- <div class="history instrection">instrection
+          <div class="history yellow">click on generate Email button to generate Email</div> 
+          <div class="history yellow">click on stop button for stop generate emails</div>
+          <div class="history yellow">click on clearall button to clear or reset all</div>
+        </div> -->
+
+      
+      <div class="d-c-center">
+        
+        <section class="display-container">
+          <div class="display-container-title">Email history</div>
+          <div class="emails-history">
+            <div class="history-email">
+              <div class="history-dispaly history" id="displayhistory">History Will Display here</div>
+            </div>
+            <!-- <div class="history" id="stop"></div> -->
+            <!-- <div class="history" id="clearalll"></div> -->
+          </div>
+
+        </section>
+      </div>
+      <section class="last-section">
+        <div class="last-section-desc">Made with <img src="./public/heart.png" class="logo"> by Smit Zinzuvadiya - mini Project</div>
+      </section>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
