@@ -88,6 +88,7 @@ position: relative;
     max-height:410px;
     height:100%;
     padding-top:48px;
+    margin-bottom:48px;
   }
   .header-section{
     width:100%;
@@ -206,12 +207,13 @@ position: relative;
 }
 .last-section{
   width:100%;
+  background-color: white;
   border-top:1px solid rgb(196, 193, 193);
   display: flex;
   align-items: center;
   justify-content: center;
   height:48px;
-  position: absolute;
+  position: sticky;
   bottom:0px;
 }
 .last-section-desc{
